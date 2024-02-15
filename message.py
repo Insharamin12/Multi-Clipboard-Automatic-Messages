@@ -2,9 +2,16 @@
 # mclip.py - A multi-clipboard program.
 
 # Dictionary containing keyphrases and corresponding text
-TEXT = {'agree': """Yes, I agree. That sounds fine to me.""",
-        'busy': """Sorry, can we do this later this week or next week?""",
-        'upsell': """Would you consider making this a monthly donation?"""}
+# Dictionary containing keyphrases and corresponding text
+TEXT = {
+    'agree': """Yes, I agree. That sounds fine to me.""",
+    'busy': """Sorry, can we do this later this week or next week?""",
+    'upsell': """Would you consider making this a monthly donation?""",
+    'thankyou': """Thank you for reaching out. I appreciate your prompt response.""",
+    'followup': """Just following up on my previous email. Do you have any updates on this?""",
+    'confirm': """Can you please confirm if this works for you?""",
+    'resolve': """Let's work together to resolve this issue promptly."""
+}
 
 import sys, pyperclip
 
