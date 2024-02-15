@@ -2,7 +2,6 @@
 # mclip.py - A multi-clipboard program.
 
 # Dictionary containing keyphrases and corresponding text
-# Dictionary containing keyphrases and corresponding text
 TEXT = {
     'agree': """Yes, I agree. That sounds fine to me.""",
     'busy': """Sorry, can we do this later this week or next week?""",
